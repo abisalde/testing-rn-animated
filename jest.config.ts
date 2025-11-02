@@ -20,7 +20,6 @@ const config: Config = {
   ],
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
-    "^react-native-worklets$": "react-native-worklets/lib/commonjs",
   },
   extensionsToTreatAsEsm: ['.ts', '.tsx'],
 };
